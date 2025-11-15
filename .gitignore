@@ -1,0 +1,177 @@
+<invoke name="artifacts"><parameter name="command">create</parameter><parameter name="type">application/vnd.ant.code</parameter><parameter name="language">gitignore</parameter><parameter name="id">gitignore_file</parameter><parameter name="title">.gitignore - Complete Git Ignore File</parameter><parameter name="content"># ===========================================
+OrangeHRM Test Automation - .gitignore
+===========================================
+============================================
+Robot Framework Reports and Results
+============================================
+Results/
+results/
+*.html
+.xml
+log.html
+report.html
+output.xml
+screenshots/
+selenium-screenshot-.png
+============================================
+Test Data (Generated Files)
+============================================
+test_data.json
+*.json.bak
+============================================
+Python
+============================================
+Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+*.so
+Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+PyInstaller
+*.manifest
+*.spec
+Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+Virtual environments
+venv/
+ENV/
+env/
+.venv
+.env
+============================================
+Browser Library / Playwright
+============================================
+.browser/
+browser/
+node_modules/
+.playwright/
+playwright-state/
+trace.zip
+============================================
+IDEs and Editors
+============================================
+VS Code
+.vscode/
+*.code-workspace
+.history/
+PyCharm
+.idea/
+*.iml
+*.iws
+out/
+Sublime Text
+*.sublime-project
+*.sublime-workspace
+Eclipse
+.project
+.pydevproject
+.settings/
+Jupyter Notebook
+.ipynb_checkpoints
+============================================
+Operating System Files
+============================================
+Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Linux
+~
+.directory
+.fuse_hidden
+============================================
+Logs and Temporary Files
+============================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~.nib
+*.bak
+*.old
+============================================
+Secrets and Credentials
+============================================
+secrets.robot
+credentials.txt
+*.pem
+.key
+.env.local
+.env..local
+============================================
+Database
+============================================
+*.db
+*.sqlite
+*.sqlite3
+============================================
+Archives and Compressed Files
+============================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+============================================
+Documentation Build Files
+============================================
+docs/_build/
+site/
+============================================
+CI/CD
+============================================
+.github/
+.gitlab-ci.yml
+============================================
+Custom Test Data
+============================================
+Ignore custom test data but keep template
+test_data_custom.json
+*_backup.json
+============================================
+Dependencies Lock Files (Optional)
+============================================
+Uncomment if you want to ignore lock files
+Pipfile.lock
+poetry.lock
+requirements-lock.txt</parameter>
